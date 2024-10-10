@@ -1,0 +1,314 @@
+/* Small */
+@media screen and (min-width: 430px) {
+  /* Header */
+  header .text h2 {
+    font-size: 65px;
+  }
+  header .text p {
+    font-size: 16px;
+  }
+  header .text .buttons {
+    flex-direction: row;
+    align-items: center;
+  }
+  header .text .buttons a.watch-video .play-icon::after {
+    top: 10px;
+    left: 55%;
+  }
+  header .text .buttons button {
+    margin-right: 40px;
+  }
+  header .text .buttons::after {
+    left: 50%;
+    top: -16%;
+  }
+  header .text .buttons button a#book-btn {
+    font-size: 15px;
+  }
+  header .text .buttons a.watch-video {
+    font-size: 16px;
+  }
+  header .text .buttons::after {
+    width: 60px;
+    height: 60px;
+    left: 50%;
+    top: -14%;
+  }
+  /* Chefs */
+  .container {
+    padding: 0 2rem;
+  }
+  h3 {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 50px;
+  }
+  section#chefs .cards .card h5 {
+    font-size: 19px;
+  }
+  section#chefs .cards .card p:first-of-type {
+    font-size: 14px;
+  }
+  section#chefs .cards .card p:last-of-type {
+    font-size: 15px;
+  }
+  section#chefs .cards .card .icons {
+    width: 50px;
+    height: 190px;
+  }
+  section#chefs .cards .card .icons i {
+    font-size: 18px;
+  }
+  /* Gallery */
+  section#gallery .container .images .image .layer p:first-of-type {
+    font-size: 24px;
+  }
+  section#gallery .container .images .image .layer p:last-of-type {
+    font-size: 16px;
+  }
+  /* Contact */
+  section#contact .container .cards .card .info p:first-of-type {
+    font-size: 20px;
+  }
+  section#contact .container .cards .card .info p:last-of-type,
+  section#contact .container .cards .card .info p a {
+    font-size: 16px;
+  }
+  section#contact .container .form form input:last-of-type {
+    width: 180px;
+    font-size: 15px;
+  }
+  /* Footer */
+  footer .boxes .left .text p {
+    font-size: 16px;
+  }
+  footer .boxes .left .social p {
+    font-size: 19px;
+  }
+  footer .boxes .left .social .icons a {
+    font-size: 24px;
+  }
+  footer .boxes .middle .subscribe-info p:first-of-type {
+    font-size: 19px;
+  }
+  footer .boxes .middle .subscribe-info p:last-of-type {
+    font-size: 16px;
+  }
+  footer .boxes .middle .subscribe-form form button {
+    font-size: 15px;
+  }
+  footer .boxes .middle .links p,
+  footer .boxes .right p {
+    font-size: 19px;
+  }
+  footer .boxes .middle .links ul {
+    font-size: 16px;
+  }
+  footer .boxes .middle .links ul li i {
+    font-size: 12px;
+  }
+  footer .boxes .right .addresses .address {
+    column-gap: 25px;
+  }
+  footer .boxes .right .addresses .address p {
+    font-size: 16px;
+  }
+  footer .boxes .right .addresses .address a i {
+    color: var(--main);
+    font-size: 22px;
+  }
+}
+@media screen and (min-width: 640px) {
+  /* Chefs */
+  section#chefs .cards .card {
+    width: 90%;
+  }
+  /* Gallery */
+  section#gallery .container .images {
+    padding: 0 23px;
+  }
+}
+/* Meduim */
+@media screen and (min-width: 768px) {
+  :root {
+    --nav-height: 89.78px;
+  }
+
+  /* Nav */
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  nav .links {
+    margin-top: 0;
+  }
+  nav .links ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav .links ul li {
+    padding: 0 15px;
+  }
+  nav .dark-mode .light i {
+    font-size: 19px;
+  }
+  /* Header */
+  header {
+    margin-top: var(--nav-height);
+  }
+  /* Chefs */
+  section#chefs .cards {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 2%;
+  }
+  section#chefs .cards .card {
+    width: 48%;
+  }
+  /* Gallery */
+  section#gallery .container .images {
+    columns: 2;
+    column-gap: 20px;
+  }
+  /* Contact */
+  section#contact .container .cards {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  section#contact .container .cards .card {
+    width: 49%;
+  }
+  /* Footer */
+  footer .boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 7px;
+  }
+  footer .boxes .left {
+    width: 50%;
+  }
+  footer .boxes .middle {
+    order: 1;
+    width: 100%;
+  }
+  footer .boxes .middle .subscribe-form form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1%;
+  }
+  footer .boxes .middle .subscribe-form form input {
+    flex-grow: 1;
+  }
+  footer .boxes .middle .subscribe-form form button {
+    padding: 8px 8px 8px 10px;
+  }
+}
+/* Large */
+@media screen and (min-width: 992px) {
+  /* Header */
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  header .text {
+    text-align: start;
+    width: 40%;
+    align-items: flex-start;
+  }
+  header .image {
+    width: 35%;
+  }
+  header .text p {
+    margin-top: 0;
+  }
+  header .text button {
+    border-radius: 0px 30px 30px 30px;
+  }
+  /* Chefs */
+  section#chefs .cards {
+    column-gap: 2%;
+  }
+  section#chefs .cards .card {
+    width: calc(96% / 3);
+  }
+  /* Gallery */
+  section#gallery .container .images {
+    columns: 3;
+  }
+  section#gallery .container .images .left .burger {
+    order: 4;
+  }
+  section#gallery .container .images .left .pizza-two {
+    order: 1;
+  }
+  section#gallery .container .images .left .potato {
+    order: 3;
+  }
+  section#gallery .container .images .left .steak {
+    order: 2;
+  }
+  section#gallery .container .images .image:nth-last-of-type(2) {
+    grid-column: 3;
+  }
+  /* Contact */
+  section#contact .container .form form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2%;
+    justify-content: center;
+  }
+  section#contact .container .form form input:first-of-type,
+  section#contact .container .form form input:nth-of-type(2) {
+    width: 49%;
+  }
+  section#contact .container .form form input:nth-of-type(3),
+  section#contact .container .form form textarea {
+    width: 100%;
+  }
+}
+/* X Large */
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 0 100px;
+  }
+  /* Footer */
+  footer .boxes {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2%;
+  }
+  footer .boxes .left,
+  footer .boxes .right {
+    width: 25%;
+  }
+  footer .boxes .left {
+    padding-top: 15px;
+  }
+  footer .boxes .middle {
+    width: 46%;
+  }
+  footer .boxes .right {
+    order: 1;
+  }
+  footer .boxes .middle .subscribe-form form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1%;
+  }
+  footer .boxes .middle .subscribe-form form button {
+    padding: 8px 8px 8px 10px;
+  }
+}
+
+
