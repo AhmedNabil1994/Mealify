@@ -10,13 +10,11 @@
   header .text .buttons {
     flex-direction: row;
     align-items: center;
+    column-gap: 40px;
   }
   header .text .buttons a.watch-video .play-icon::after {
     top: 10px;
     left: 55%;
-  }
-  header .text .buttons button {
-    margin-right: 40px;
   }
   header .text .buttons::after {
     left: 50%;
@@ -310,5 +308,3 @@
     padding: 8px 8px 8px 10px;
   }
 }
-
-
