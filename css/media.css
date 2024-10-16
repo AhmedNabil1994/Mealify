@@ -135,12 +135,13 @@
 
   /* Nav */
   nav {
-    display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-inline: 0;
   }
   nav .links {
     margin-top: 0;
+    display: block;
   }
   nav .links ul {
     display: flex;
@@ -151,6 +152,10 @@
   }
   nav .dark-mode .light i {
     font-size: 19px;
+  }
+  .mobile-toggler,
+  .mobile-links {
+    display: none;
   }
   /* Header */
   header {

@@ -19,7 +19,7 @@
   --main: #ce1212;
   --secondary: #e61414;
   /* Nav */
-  --nav-height: 287.78px;
+  --nav-height: 89.77px;
   --nav-color: white;
   --logo-color: rgb(33, 37, 41);
   --anchor-active-color: rgb(0, 0, 0);
@@ -45,6 +45,9 @@
   --contact-form-button-color: white;
   /* Footer */
   --footer-button-color: white;
+  /* Toggler */
+  --toggler-color: black;
+  --anchor-active-mobile: rgb(0, 0, 0);
 }
 .font-one {
   font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto,
@@ -109,6 +112,10 @@ nav {
   width: 100%;
   z-index: 999;
   background-color: var(--nav-color);
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 25px;
+  align-items: baseline;
 }
 nav .logo h1 {
   font-size: 30px;
@@ -121,6 +128,7 @@ nav .logo h1 a span {
 }
 nav .links {
   margin-top: -15px;
+  display: none;
 }
 nav .links ul {
   list-style: none;
@@ -156,7 +164,7 @@ nav .links ul li a:hover::after {
   transform: scaleX(1);
 }
 nav .dark-mode {
-  margin: 10px 0;
+  margin-right: 30px;
 }
 nav .dark-mode i {
   cursor: pointer;
@@ -650,7 +658,7 @@ footer .boxes .right .addresses .address a i {
   color: var(--main);
 }
 
-/* Bonus */
+/* Features */
 /* Anchor Target */
 body:not(body:has(:target)) a.home,
 body:has(.home:target) a.home,
@@ -659,11 +667,25 @@ body:has(.gallery:target) a.gallery,
 body:has(.chefs:target) a.chefs {
   color: var(--anchor-active-color);
 }
+body:not(body:has(:target)) a.mob-home,
+body:has(.home:target) a.mob-home,
+body:has(.contact:target) a.mob-contact,
+body:has(.gallery:target) a.mob-gallery,
+body:has(.chefs:target) a.mob-chefs {
+  color: var(--anchor-active-mobile);
+}
 body:not(body:has(:target)) a.home::after,
 body:has(.home:target) a.home::after,
 body:has(.contact:target) a.contact::after,
 body:has(.gallery:target) a.gallery::after,
 body:has(.chefs:target) a.chefs::after {
+  transform: scaleX(1);
+}
+body:not(body:has(:target)) a.mob-home::after,
+body:has(.home:target) a.mob-home::after,
+body:has(.contact:target) a.mob-contact::after,
+body:has(.gallery:target) a.mob-gallery::after,
+body:has(.chefs:target) a.mob-chefs::after {
   transform: scaleX(1);
 }
 
@@ -712,14 +734,67 @@ body:has(#mode:checked) {
   --contact-form-button-color: rgb(23, 23, 23);
   /* Footer */
   --footer-button-color: rgb(23, 23, 23);
+  /* Toggler */
+  --toggler-color: white;
 }
 
 /* Style the vertical scroller tool */
 ::-webkit-scrollbar {
-  background-color: #DFDFDF;
+  background-color: #dfdfdf;
   width: 15px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #202020;
   border-radius: 20px;
+}
+
+/* Mobile Toggler */
+.togglers {
+  display: flex;
+  align-items: center;
+}
+.mobile-toggler input#nav-mobile {
+  display: none;
+}
+.mobile-toggler i {
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--toggler-color);
+}
+.mobile-links {
+  position: absolute;
+  transform: translateX(100%);
+  background-color: white;
+  width: 300px;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  transition: transform 0.4s;
+  text-align: left;
+  border-left: 2px solid #80808054;
+}
+.mobile-links a {
+  transition: all 0.4s;
+}
+#mobile-links a:hover {
+  color: var(--anchor-active-mobile);
+}
+.mobile-links .links {
+  display: block;
+  padding: 70px 0 0 15px;
+}
+.mobile-links i {
+  font-size: 20px;
+  color: gray;
+  padding: 10px 10px 0 0;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.mobile-links i:hover {
+  color: black;
+}
+body:has(#nav-mobile:checked) .mobile-links {
+  transform: translateX(0);
 }
