@@ -370,7 +370,7 @@ section#chefs .cards .card .icons i:hover {
   color: rgba(55, 55, 63, 0.9);
 }
 /* ------------------------Gallery Section-------------------------------- */
-section#gallery {
+/* section#gallery {
   background-color: var(--header-color);
   padding: 85px 0px;
 }
@@ -433,6 +433,128 @@ section#gallery .container .images .image .layer p:first-of-type {
 section#gallery .container .images .image .layer p:last-of-type {
   margin-top: 10px;
   font-size: 12px;
+} */
+
+/* mentor test */
+.Section__Padding {
+  padding-block: 90px;
+}
+.container {
+  padding-inline: 15px;
+}
+@media screen and (min-width: 567px) {
+  .container {
+    width: 540px;
+    margin-inline: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    width: 950px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1350px;
+  }
+}
+.Heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.Gallery__Section {
+  background-color: var(--Primary-color);
+}
+
+.Image__Wrapper img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.Gallery__Cards .Card {
+  position: relative;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.Image__Wrapper {
+  padding: 5px;
+  background-color: white;
+  position: relative;
+  overflow: hidden;
+}
+.Gallery__Cards .Card .Image__Content {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.394);
+  top: 0;
+  left: 0;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(100%);
+  transition: 0.5s all;
+}
+
+.Gallery__Cards .Card:hover .Image__Content {
+  transform: translateY(0);
+}
+@media screen and (min-width: 768px) {
+  .Gallery__Cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1300px;
+  }
+  .Gallery__Cards .Card {
+    width: 50%;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 992px) {
+  .Gallery__Cards {
+    /* height: 1405px; */
+    /* height: 1012px; */
+    height: 880px;
+  }
+  .Gallery__Cards .Card {
+    width: calc(100% / 3);
+  }
+}
+
+.Gallery__Cards :nth-child(1) {
+  order: 1;
+}
+.Gallery__Cards :nth-child(2) {
+  order: 5;
+}
+.Gallery__Cards :nth-child(3) {
+  order: 2;
+}
+.Gallery__Cards :nth-child(4) {
+  order: 4;
+}
+.Gallery__Cards :nth-child(5) {
+  order: 3;
+}
+.Gallery__Cards :nth-child(6) {
+  order: 6;
+}
+.Gallery__Cards :nth-child(7) {
+  order: 7;
 }
 /* ------------------------Contact Section-------------------------------- */
 section#contact {

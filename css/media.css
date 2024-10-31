@@ -59,12 +59,12 @@
     font-size: 18px;
   }
   /* Gallery */
-  section#gallery .container .images .image .layer p:first-of-type {
+  /* section#gallery .container .images .image .layer p:first-of-type {
     font-size: 24px;
   }
   section#gallery .container .images .image .layer p:last-of-type {
     font-size: 16px;
-  }
+  } */
   /* Contact */
   section#contact .container .cards .card .info p:first-of-type {
     font-size: 20px;
@@ -123,9 +123,9 @@
     width: 90%;
   }
   /* Gallery */
-  section#gallery .container .images {
+  /* section#gallery .container .images {
     padding: 0 23px;
-  }
+  } */
 }
 /* Meduim */
 @media screen and (min-width: 768px) {
@@ -176,10 +176,10 @@
     width: 48%;
   }
   /* Gallery */
-  section#gallery .container .images {
+  /* section#gallery .container .images {
     columns: 2;
     column-gap: 20px;
-  }
+  } */
   /* Contact */
   section#contact .container .cards {
     display: flex;
@@ -245,7 +245,7 @@
     width: calc(96% / 3);
   }
   /* Gallery */
-  section#gallery .container .images {
+  /* section#gallery .container .images {
     columns: 3;
   }
   section#gallery .container .images .left .burger {
@@ -262,7 +262,7 @@
   }
   section#gallery .container .images .image:nth-last-of-type(2) {
     grid-column: 3;
-  }
+  } */
   /* Contact */
   section#contact .container .form form {
     display: flex;
