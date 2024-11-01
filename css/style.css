@@ -370,7 +370,7 @@ section#chefs .cards .card .icons i:hover {
   color: rgba(55, 55, 63, 0.9);
 }
 /* ------------------------Gallery Section-------------------------------- */
-/* section#gallery {
+section#gallery {
   background-color: var(--header-color);
   padding: 85px 0px;
 }
@@ -433,16 +433,10 @@ section#gallery .container .images .image .layer p:first-of-type {
 section#gallery .container .images .image .layer p:last-of-type {
   margin-top: 10px;
   font-size: 12px;
-} */
+}
 
-/* mentor test */
-.Section__Padding {
-  padding-block: 90px;
-}
-.container {
-  padding-inline: 15px;
-}
-@media screen and (min-width: 567px) {
+/*  test */
+/* @media screen and (min-width: 567px) {
   .container {
     width: 540px;
     margin-inline: auto;
@@ -526,8 +520,6 @@ section#gallery .container .images .image .layer p:last-of-type {
 }
 @media screen and (min-width: 992px) {
   .Gallery__Cards {
-    /* height: 1405px; */
-    /* height: 1012px; */
     height: 880px;
   }
   .Gallery__Cards .Card {
@@ -555,7 +547,8 @@ section#gallery .container .images .image .layer p:last-of-type {
 }
 .Gallery__Cards :nth-child(7) {
   order: 7;
-}
+} */
+/* end test */
 /* ------------------------Contact Section-------------------------------- */
 section#contact {
   background-color: var(--chefs-color);
