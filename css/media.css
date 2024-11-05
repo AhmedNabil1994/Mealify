@@ -33,9 +33,6 @@
     top: -14%;
   }
   /* Chefs */
-  .container {
-    padding: 0 2rem;
-  }
   h3 {
     font-size: 14px;
   }
@@ -117,22 +114,14 @@
     font-size: 22px;
   }
 }
-@media screen and (min-width: 640px) {
-  /* Chefs */
-  section#chefs .cards .card {
-    width: 90%;
-  }
-  /* Gallery */
-  section#gallery .container .images {
-    padding: 0 23px;
-  }
-}
 /* Meduim */
 @media screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
   :root {
     --nav-height: 89.78px;
   }
-
   /* Nav */
   nav {
     justify-content: space-around;
@@ -176,10 +165,14 @@
     width: 48%;
   }
   /* Gallery */
-  section#gallery .container .images {
-    columns: 2;
-    column-gap: 20px;
+  section#gallery .images {
+    height: 1405px;
+    .image {
+      width: 50%;
+      margin-bottom: 0;
+    }
   }
+
   /* Contact */
   section#contact .container .cards {
     display: flex;
@@ -219,6 +212,9 @@
 /* Large */
 @media screen and (min-width: 992px) {
   /* Header */
+  .container {
+    max-width: 960px;
+  }
   header {
     flex-flow: row wrap;
     justify-content: space-around;
@@ -246,23 +242,33 @@
   }
   /* Gallery */
   section#gallery .container .images {
-    columns: 3;
+    height: 845px;
+    .image {
+      width: calc(96% / 3);
+      &.pizza-one {
+        order: 1;
+      }
+      &.pizza-two {
+        order: 2;
+      }
+      &.steak {
+        order: 3;
+      }
+      &.potato {
+        order: 4;
+      }
+      &.burger {
+        order: 5;
+      }
+      &.chicken {
+        order: 6;
+      }
+      &.kebaab {
+        order: 7;
+      }
+    }
   }
-  section#gallery .container .images .left .burger {
-    order: 4;
-  }
-  section#gallery .container .images .left .pizza-two {
-    order: 1;
-  }
-  section#gallery .container .images .left .potato {
-    order: 3;
-  }
-  section#gallery .container .images .left .steak {
-    order: 2;
-  }
-  section#gallery .container .images .image:nth-last-of-type(2) {
-    grid-column: 3;
-  }
+
   /* Contact */
   section#contact .container .form form {
     display: flex;
