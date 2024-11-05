@@ -287,9 +287,14 @@
   }
 }
 /* X Large */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .container {
-    padding: 0 100px;
+    padding: 0 .625rem;
+    max-width: 1140px;
+  }
+  /* Gallery */
+  section#gallery .container .images {
+    height: 1000px;
   }
   /* Footer */
   footer .boxes {

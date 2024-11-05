@@ -382,7 +382,6 @@ section#gallery h4 {
   margin-bottom: 30px;
 }
 section#gallery .container .images {
-  /* --gap: 1.25rem; */
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -424,14 +423,6 @@ section#gallery .container .images .image .layer p:first-of-type {
 section#gallery .container .images .image .layer p:last-of-type {
   margin-top: 10px;
   font-size: 12px;
-}
-
-/*  test */
-/* @media screen and (min-width: 567px) {
-  .container {
-    width: 540px;
-    margin-inline: auto;
-  }
 }
 @media screen and (min-width: 768px) {
   .container {
