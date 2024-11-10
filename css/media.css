@@ -21,7 +21,7 @@
     top: -16%;
   }
   header .text .buttons button a#book-btn {
-    font-size: .9375rem;
+    font-size: 0.9375rem;
   }
   header .text .buttons a.watch-video {
     font-size: 1rem;
@@ -34,7 +34,7 @@
   }
   /* Chefs */
   h3 {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
   h4 {
     font-size: 3.125rem;
@@ -43,10 +43,10 @@
     font-size: 1.1875rem;
   }
   section#chefs .cards .card p:first-of-type {
-    font-size: .875rem;
+    font-size: 0.875rem;
   }
   section#chefs .cards .card p:last-of-type {
-    font-size: .9375rem;
+    font-size: 0.9375rem;
   }
   section#chefs .cards .card .icons {
     width: 50px;
@@ -72,7 +72,7 @@
   }
   section#contact .container .form form input:last-of-type {
     width: 180px;
-    font-size: .9375rem;
+    font-size: 0.9375rem;
   }
   /* Footer */
   footer .boxes .left .text p {
@@ -82,8 +82,7 @@
     font-size: 1.1875rem;
   }
   footer .boxes .left .social .icons a {
-    font-size: 1.5rem
-    ;
+    font-size: 1.5rem;
   }
   footer .boxes .middle .subscribe-info p:first-of-type {
     font-size: 1.1875rem;
@@ -92,7 +91,7 @@
     font-size: 1rem;
   }
   footer .boxes .middle .subscribe-form form button {
-    font-size: .9375rem;
+    font-size: 0.9375rem;
   }
   footer .boxes .middle .links p,
   footer .boxes .right p {
@@ -102,7 +101,7 @@
     font-size: 1rem;
   }
   footer .boxes .middle .links ul li i {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
   footer .boxes .right .addresses .address {
     column-gap: 1.5625rem;
@@ -138,7 +137,7 @@
     justify-content: center;
   }
   nav .links ul li {
-    padding: 0 .9375rem;
+    padding: 0 0.9375rem;
   }
   nav .dark-mode .light i {
     font-size: 1.1875rem;
@@ -207,7 +206,7 @@
     flex-grow: 1;
   }
   footer .boxes .middle .subscribe-form form button {
-    padding: .5rem .5rem .5rem .625rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.625rem;
   }
 }
 /* Large */
@@ -290,7 +289,7 @@
 /* X Large */
 @media screen and (min-width: 1200px) {
   .container {
-    padding: 0 .625rem;
+    padding: 0 0.625rem;
     max-width: 1140px;
   }
   /* Gallery */
@@ -308,7 +307,7 @@
     width: 25%;
   }
   footer .boxes .left {
-    padding-top: .9375rem;
+    padding-top: 0.9375rem;
   }
   footer .boxes .middle {
     width: 46%;
@@ -322,6 +321,11 @@
     column-gap: 1%;
   }
   footer .boxes .middle .subscribe-form form button {
-    padding: .5rem .5rem .5rem .625rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.625rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1350px;
   }
 }

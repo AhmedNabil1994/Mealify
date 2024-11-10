@@ -423,26 +423,6 @@ section#gallery .container .images .image .layer p:last-of-type {
   margin-top: .625rem;
   font-size: .75rem;
 }
-@media screen and (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media screen and (min-width: 992px) {
-  .container {
-    width: 950px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-@media screen and (min-width: 1400px) {
-  .container {
-    width: 1350px;
-  }
-}
 .Heading {
   text-align: center;
   margin-bottom: 25px;
