@@ -70,10 +70,10 @@
   display: block;
 }
 .section-padding {
-  padding: 100px 0;
+  padding: 6.25rem 0;
 }
 .container {
-  padding-inline: .9375rem;
+  padding-inline: 0.9375rem;
   max-width: 540px;
   margin-inline: auto;
 }
@@ -87,17 +87,17 @@ a {
   text-decoration: none;
 }
 h3 {
-  font-size: 11px;
+  font-size: 0.6875rem;
   font-weight: 400;
   color: rgb(127, 127, 144);
   margin: 0;
 }
 h4 {
-  font-size: 38px;
+  font-size: 2.375rem;
   font-weight: 400;
   color: var(--h4-color);
   margin-top: 0;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 h4 span {
   color: var(--main);
@@ -116,11 +116,11 @@ nav {
   background-color: var(--nav-color);
   display: flex;
   justify-content: space-between;
-  padding-inline: 25px;
+  padding-inline: 1.5625rem;
   align-items: baseline;
 }
 nav .logo h1 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 nav .logo h1 a {
   color: var(--logo-color);
@@ -129,7 +129,7 @@ nav .logo h1 a span {
   color: var(--main);
 }
 nav .links {
-  margin-top: -15px;
+  margin-top: -0.9375rem;
   display: none;
 }
 nav .links ul {
@@ -138,11 +138,11 @@ nav .links ul {
   padding: 0;
 }
 nav .links ul li {
-  padding: 10px 0;
+  padding: 0.625rem 0;
 }
 nav .links ul li a {
   color: var(--anchor-non-active-color);
-  font-size: 17px;
+  font-size: 1.0625rem;
   font-weight: 600;
   transition: all 0.4s;
   position: relative;
@@ -166,7 +166,7 @@ nav .links ul li a:hover::after {
   transform: scaleX(1);
 }
 nav .dark-mode {
-  margin-right: 30px;
+  margin-right: 1.875rem;
 }
 nav .dark-mode i {
   cursor: pointer;
@@ -174,11 +174,11 @@ nav .dark-mode i {
 }
 nav .dark-mode label .night {
   color: rgb(33, 37, 41);
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 nav .dark-mode label .light {
   color: white;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 /* ------------------------Home Section-------------------------------- */
@@ -186,7 +186,7 @@ header {
   background-color: var(--header-color);
   display: flex;
   flex-direction: column-reverse;
-  padding: 40px 30px;
+  padding: 2.5rem 1.875rem;
   margin-top: var(--nav-height);
   align-items: center;
 }
@@ -198,14 +198,14 @@ header .text {
 }
 header .text h2 {
   font-weight: 700;
-  font-size: 45px;
+  font-size: 2.8125rem;
   color: var(--header-h2-color);
-  margin: 40px 0 20px;
+  margin: 2.5rem 0 1.25rem;
 }
 header .text p {
   color: var(--header-p-color);
   line-height: 26px;
-  font-size: 12px;
+  font-size: .75rem;
   margin-top: 0;
 }
 header .text .buttons {
@@ -217,8 +217,8 @@ header .text .buttons {
 header .text button {
   background-color: var(--main);
   border: none;
-  padding: 10px 30px;
-  border-radius: 30px;
+  padding: .625rem 1.875rem;
+  border-radius: 1.875rem;
   transition: all 0.3s;
 }
 header .text button:hover {
@@ -232,7 +232,7 @@ header .text .buttons a.watch-video {
   color: var(--header-watch-color);
   font-weight: 600;
   transition: all 0.3s;
-  font-size: 12px;
+  font-size: .75rem;
   display: flex;
   align-items: center;
 }
@@ -252,7 +252,7 @@ header .text .buttons a.watch-video .play-icon {
 header .text .buttons a.watch-video .play-icon i {
   position: relative;
   z-index: 1;
-  font-size: 18px;
+  font-size: 1.125rem;
   color: var(--header-icon-color);
   transition: all 0.4s;
 }
@@ -338,10 +338,10 @@ section#chefs .cards .card h5 {
 }
 section#chefs .cards .card p {
   color: var(--chefs-p-color);
-  font-size: 11px;
+  font-size: .6875rem;
 }
 section#chefs .cards .card p:first-of-type {
-  margin-bottom: -5px;
+  margin-bottom: -0.3125rem;
 }
 section#chefs .cards .card p:last-of-type {
   font-style: italic;
@@ -354,7 +354,7 @@ section#chefs .cards .card .icons {
   row-gap: 15px;
   width: 40px;
   height: 135px;
-  border-radius: 5px;
+  border-radius: .3125rem;
   position: absolute;
   top: 30px;
   right: 10px;
@@ -365,7 +365,7 @@ section#chefs .cards .card:hover .icons {
   transform: translateX(0);
 }
 section#chefs .cards .card .icons i {
-  font-size: 14px;
+  font-size: .875rem;
   color: #37373f66;
   transition: all 0.4s;
 }
@@ -375,10 +375,10 @@ section#chefs .cards .card .icons i:hover {
 /* ------------------------Gallery Section-------------------------------- */
 section#gallery {
   background-color: var(--header-color);
-  padding: 85px 0px;
+  padding: 5.3125rem 0rem;
 }
 section#gallery h4 {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 section#gallery .container .images {
   display: flex;
@@ -415,13 +415,13 @@ section#gallery .container .images .image .layer p {
   color: white;
 }
 section#gallery .container .images .image .layer p:first-of-type {
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: .625rem;
 }
 section#gallery .container .images .image .layer p:last-of-type {
-  margin-top: 10px;
-  font-size: 12px;
+  margin-top: .625rem;
+  font-size: .75rem;
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -458,11 +458,11 @@ section#gallery .container .images .image .layer p:last-of-type {
 
 .Gallery__Cards .Card {
   position: relative;
-  margin-bottom: 20px;
-  padding: 5px;
+  margin-bottom: 1.25rem;
+  padding: .3125rem;
 }
 .Image__Wrapper {
-  padding: 5px;
+  padding: .3125rem;
   background-color: white;
   position: relative;
   overflow: hidden;
@@ -528,14 +528,15 @@ section#gallery .container .images .image .layer p:last-of-type {
 }
 .Gallery__Cards :nth-child(7) {
   order: 7;
-} */
+}
+*/
 /* end test */
 /* ------------------------Contact Section-------------------------------- */
 section#contact {
   background-color: var(--chefs-color);
 }
 section#contact .container .cards {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   display: flex;
   flex-direction: column;
   row-gap: 20px;
@@ -548,7 +549,7 @@ section#contact .container .cards .card {
 }
 section#contact .container .cards .card .icon {
   background-color: var(--main);
-  padding: 15px;
+  padding: .9375rem;
   border-radius: 50%;
   color: var(--contact-icon-color);
 }
@@ -556,10 +557,10 @@ section#contact .container .cards .card .info {
   padding-left: 15px;
 }
 section#contact .container .cards .card .info p:first-of-type {
-  font-size: 15px;
+  font-size: .9375rem;
   color: rgb(125, 125, 125);
   font-weight: 700;
-  margin-bottom: -7px;
+  margin-bottom: -0.4375rem;
 }
 
 section#contact .container .cards .card .info p:last-of-type span {
@@ -567,12 +568,12 @@ section#contact .container .cards .card .info p:last-of-type span {
 }
 section#contact .container .cards .card .info p:last-of-type,
 section#contact .container .cards .card .info p a {
-  font-size: 12px;
+  font-size: .75rem;
   color: var(--contact-last-p-color);
 }
 section#contact .container .form {
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 1.25rem;
+  padding: 1.25rem;
   border: 1px solid #a89e9e36;
   background-color: var(--contact-form-color);
 }
@@ -592,18 +593,18 @@ section#contact .container .form form textarea:focus {
   outline: 1px solid var(--main);
 }
 section#contact .container .form form input {
-  padding: 15px;
+  padding: .9375rem;
 }
 section#contact .container .form form textarea {
-  padding: 15px 15px 80px;
+  padding: .9375rem .9375rem 5rem;
   resize: none;
 }
 section#contact .container .form form input:last-of-type {
   width: 60%;
   background-color: var(--main);
   color: var(--contact-form-button-color);
-  font-size: 11px;
-  border-radius: 25px;
+  font-size: .6875rem;
+  border-radius: 1.5625rem;
   align-self: center;
   cursor: pointer;
   transition: all 0.4s;
@@ -621,7 +622,7 @@ footer {
 }
 footer .layer {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 30px 10px;
+  padding: 1.875rem .625rem;
 }
 footer #quick-links a,
 footer a {
@@ -640,18 +641,18 @@ footer .boxes .left .logo img {
   height: 30px;
 }
 footer .boxes .left .logo h6 {
-  font-size: 30px;
+  font-size: 1.875rem;
   margin: 0;
-  padding-left: 10px;
+  padding-left: .625rem;
 }
 footer .boxes .left .logo h6 span {
   color: var(--main);
 }
 footer .boxes .left .text p {
-  font-size: 12px;
+  font-size: .75rem;
 }
 footer .boxes .left .social p {
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 700;
   text-align: center;
   position: relative;
@@ -671,14 +672,14 @@ footer .boxes .left .social .icons {
   column-gap: 20px;
 }
 footer .boxes .left .social .icons a {
-  font-size: 18px;
+  font-size: 1.125rem;
 }
 footer .boxes .middle .subscribe-info p:first-of-type {
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 700;
 }
 footer .boxes .middle .subscribe-info p:last-of-type {
-  font-size: 12px;
+  font-size: .75rem;
 }
 footer .boxes .middle .subscribe-form form {
   display: flex;
@@ -687,13 +688,13 @@ footer .boxes .middle .subscribe-form form {
 }
 footer .boxes .middle .subscribe-form form input,
 footer .boxes .middle .subscribe-form form button {
-  padding: 8px 0px 8px 10px;
+  padding: .5rem 0px .5rem .625rem;
 }
 footer .boxes .middle .subscribe-form form button {
   background-color: var(--main);
   color: var(--footer-button-color);
   border: none;
-  font-size: 11px;
+  font-size: .6875rem;
   cursor: pointer;
   transition: all 0.4s;
 }
@@ -701,33 +702,33 @@ footer .boxes .middle .subscribe-form form button:hover {
   background-color: var(--secondary);
 }
 footer .boxes .middle .subscribe-form button i {
-  padding-right: 5px;
+  padding-right: .3125rem;
 }
 footer .boxes .middle .links p,
 footer .boxes .right p {
-  font-size: 14px;
+  font-size: .875rem;
   font-weight: 700;
 }
 footer .boxes .middle .links ul {
-  font-size: 12px;
+  font-size: .75rem;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 10px;
+  padding-left: .625rem;
   row-gap: 10px;
 }
 footer .boxes .middle .links ul li {
   width: 49%;
   transition: all 0.4s;
-  padding: 4px 20px;
+  padding: .25rem 1.25rem;
 }
 footer .boxes .middle .links ul li:hover {
   background-color: #222222;
   transform: translateX(10px);
 }
 footer .boxes .middle .links ul li i {
-  font-size: 10px;
-  padding-right: 5px;
+  font-size: .625rem;
+  padding-right: .3125rem;
 }
 footer .boxes .right .addresses {
   display: flex;
@@ -741,14 +742,14 @@ footer .boxes .right .addresses .address {
 }
 footer .boxes .right .addresses .address p {
   margin: 0;
-  font-size: 12px;
+  font-size: .75rem;
   font-weight: 400;
 }
 footer .boxes .right .addresses .address:nth-of-type(2) p {
-  margin-left: -6px;
+  margin-left: -0.375rem;
 }
 footer .boxes .right .addresses .address:last-of-type p {
-  margin-left: -10px;
+  margin-left: -0.625rem;
 }
 footer .boxes .right .addresses .address a i {
   color: var(--main);
@@ -841,7 +842,7 @@ body:has(#mode:checked) {
 }
 ::-webkit-scrollbar-thumb {
   background-color: #202020;
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 /* Mobile Toggler */
@@ -853,7 +854,7 @@ body:has(#mode:checked) {
   display: none;
 }
 .mobile-toggler i {
-  font-size: 24px;
+  font-size: 1.5rem;
   cursor: pointer;
   color: var(--toggler-color);
 }
@@ -879,12 +880,12 @@ body:has(#mode:checked) {
 }
 .mobile-links .links {
   display: block;
-  padding: 70px 0 0 15px;
+  padding: 4.375rem 0 0 .9375rem;
 }
 .mobile-links i {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: gray;
-  padding: 10px 10px 0 0;
+  padding: .625rem .625rem 0 0;
   cursor: pointer;
   transition: all 0.4s;
 }

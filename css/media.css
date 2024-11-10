@@ -2,10 +2,10 @@
 @media screen and (min-width: 430px) {
   /* Header */
   header .text h2 {
-    font-size: 65px;
+    font-size: 4.0625rem;
   }
   header .text p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   header .text .buttons {
     flex-direction: row;
@@ -21,10 +21,10 @@
     top: -16%;
   }
   header .text .buttons button a#book-btn {
-    font-size: 15px;
+    font-size: .9375rem;
   }
   header .text .buttons a.watch-video {
-    font-size: 16px;
+    font-size: 1rem;
   }
   header .text .buttons::after {
     width: 60px;
@@ -34,84 +34,85 @@
   }
   /* Chefs */
   h3 {
-    font-size: 14px;
+    font-size: .875rem;
   }
   h4 {
-    font-size: 50px;
+    font-size: 3.125rem;
   }
   section#chefs .cards .card h5 {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
   section#chefs .cards .card p:first-of-type {
-    font-size: 14px;
+    font-size: .875rem;
   }
   section#chefs .cards .card p:last-of-type {
-    font-size: 15px;
+    font-size: .9375rem;
   }
   section#chefs .cards .card .icons {
     width: 50px;
     height: 190px;
   }
   section#chefs .cards .card .icons i {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
   /* Gallery */
   section#gallery .container .images .image .layer p:first-of-type {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
   section#gallery .container .images .image .layer p:last-of-type {
-    font-size: 16px;
+    font-size: 1rem;
   }
   /* Contact */
   section#contact .container .cards .card .info p:first-of-type {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   section#contact .container .cards .card .info p:last-of-type,
   section#contact .container .cards .card .info p a {
-    font-size: 16px;
+    font-size: 1rem;
   }
   section#contact .container .form form input:last-of-type {
     width: 180px;
-    font-size: 15px;
+    font-size: .9375rem;
   }
   /* Footer */
   footer .boxes .left .text p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   footer .boxes .left .social p {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
   footer .boxes .left .social .icons a {
-    font-size: 24px;
+    font-size: 1.5rem
+    ;
   }
   footer .boxes .middle .subscribe-info p:first-of-type {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
   footer .boxes .middle .subscribe-info p:last-of-type {
-    font-size: 16px;
+    font-size: 1rem;
   }
   footer .boxes .middle .subscribe-form form button {
-    font-size: 15px;
+    font-size: .9375rem;
   }
   footer .boxes .middle .links p,
   footer .boxes .right p {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
   footer .boxes .middle .links ul {
-    font-size: 16px;
+    font-size: 1rem;
   }
   footer .boxes .middle .links ul li i {
-    font-size: 12px;
+    font-size: .75rem;
   }
   footer .boxes .right .addresses .address {
-    column-gap: 25px;
+    column-gap: 1.5625rem;
   }
   footer .boxes .right .addresses .address p {
-    font-size: 16px;
+    font-size: 1rem;
   }
   footer .boxes .right .addresses .address a i {
     color: var(--main);
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 }
 /* Meduim */
@@ -137,10 +138,10 @@
     justify-content: center;
   }
   nav .links ul li {
-    padding: 0 15px;
+    padding: 0 .9375rem;
   }
   nav .dark-mode .light i {
-    font-size: 19px;
+    font-size: 1.1875rem;
   }
   .mobile-toggler,
   .mobile-links {
@@ -206,7 +207,7 @@
     flex-grow: 1;
   }
   footer .boxes .middle .subscribe-form form button {
-    padding: 8px 8px 8px 10px;
+    padding: .5rem .5rem .5rem .625rem;
   }
 }
 /* Large */
@@ -231,7 +232,7 @@
     margin-top: 0;
   }
   header .text button {
-    border-radius: 0px 30px 30px 30px;
+    border-radius: 0px 1.875rem 1.875rem;
   }
   /* Chefs */
   section#chefs .cards {
@@ -307,7 +308,7 @@
     width: 25%;
   }
   footer .boxes .left {
-    padding-top: 15px;
+    padding-top: .9375rem;
   }
   footer .boxes .middle {
     width: 46%;
@@ -321,6 +322,6 @@
     column-gap: 1%;
   }
   footer .boxes .middle .subscribe-form form button {
-    padding: 8px 8px 8px 10px;
+    padding: .5rem .5rem .5rem .625rem;
   }
 }
