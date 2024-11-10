@@ -159,10 +159,9 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    column-gap: 2%;
   }
   section#chefs .cards .card {
-    width: 48%;
+    width: calc((100% - 1.25rem) / 2);
   }
   /* Gallery */
   section#gallery .images {
@@ -238,7 +237,7 @@
     column-gap: 2%;
   }
   section#chefs .cards .card {
-    width: calc(96% / 3);
+    width: calc((100% - 2.5rem) / 3);
   }
   /* Gallery */
   section#gallery .container .images {
