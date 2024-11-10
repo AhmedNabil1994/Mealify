@@ -73,9 +73,9 @@
   padding: 6.25rem 0;
 }
 .container {
-  padding-inline: 0.9375rem;
+  padding: 0 0.9375rem;
   max-width: 540px;
-  margin-inline: auto;
+  margin: 0 auto;
 }
 html {
   scroll-behavior: smooth;
@@ -116,7 +116,7 @@ nav {
   background-color: var(--nav-color);
   display: flex;
   justify-content: space-between;
-  padding-inline: 1.5625rem;
+  padding: 0 1.5625rem;
   align-items: baseline;
 }
 nav .logo h1 {
